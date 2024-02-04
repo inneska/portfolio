@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SheCodes Portfolio</title>
-
+    <title>About Frontend Developer Patricia Pereira page</title>
+    <meta
+      name="description"
+      content="Patricia Pereira - frontend engineer based in Portugal. She can work with html, sql, js and css."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,26 +27,38 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/">
-          <img src="img/logo.png" class="logo d-none d-md-block" alt="" />
-          <img src="img/logo-small.jpg" class="logo d-block d-md-none" alt="" />
+          <img
+            src="img/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia Logo"
+          />
+          <img
+            src="img/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Patricia Logo"
+          />
         </a>
         <ul>
           <li>
-            <a href="/"> Home</a>
+            <a href="/" title="Home page"> Home</a>
           </li>
           <li class="active">
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Patricia page"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Work Patricia page"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Patricia page"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -60,13 +75,66 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="img/patricia.png" alt="" class="img-fluid" />
+          <img
+            src="img/patricia.png"
+            alt="Patricia picture"
+            class="img-fluid"
+          />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Patricia page"
+              class="btn btn-branding mt-3"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email to Patricia"
+          >
+            patricia@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.facebook.com/patricia"
+            target="_blank"
+            title="Go to Patricia facebook page"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a
+            href="https://www.instragram.com/patricia"
+            target="_blank"
+            title="Go to Patricia instragram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/patricia"
+            target="_blank"
+            title="Go to Patricia twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
